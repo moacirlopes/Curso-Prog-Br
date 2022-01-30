@@ -1,0 +1,38 @@
+/*
+Id -> usa o # para utilizar -> id pode se usa uma unica vez em um elemento
+
+  classes -> usa o . para utilizar -> pode se utilizar em varias tags
+
+*/
+#Titulo {
+  color: rgb(100, 30, 30);
+}
+#textoone {
+  color: rgb(8, 26, 26);
+}
+
+.texto {
+  color: rgb(101, 101, 124);
+}
+
+/*
+
+Cores
+
+Cores com nome -> por o nome aparece
+Cor rgb -> com sem opacidade
+com rgba -> com opacidade
+
+*/
+
+#cor {
+  color: rgb(24, 40, 56);
+}
+
+#rgb {
+  color: rgb(126, 126, 73);
+}
+
+#rgba {
+  color: rgba(0, 100, 200, 1);
+}
