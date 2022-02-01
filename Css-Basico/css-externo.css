@@ -36,3 +36,55 @@ com rgba -> com opacidade
 #rgba {
   color: rgba(0, 100, 200, 1);
 }
+
+/*
+Background-color -> mudar o fundo
+background-image -> colocar uma imagem de fundo 
+background-repeat -> você pode configurar a repetição da imagem
+background-repeat: repeat-y; -> repetir na horizontal
+background-repeat: repeat-x; -> repetir na vertical
+background-size: cover; -> cobrir toda a pagina
+background-position: center; -> coloco a imagem no centro
+/* 
+*/
+/* body {
+  background-image: url(../Html-Basico/Imagens/308761-o-que-e-sorvete-de-massa-e-quais-as-diferencas-para-os-outros-1.jpg);
+  /* background-repeat: repeat-y; */
+/* background-size: cover;
+background-attachment: fixed; -> ele fixa a imagem do fundo
+background-attachment: scroll; -> a imagem rola com o mouse
+
+
+
+*/
+
+#Back {
+  color: red;
+  background-color: aqua;
+  background-image: url(../Html-Basico/Imagens/308761-o-que-e-sorvete-de-massa-e-quais-as-diferencas-para-os-outros-1.jpg);
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/*
+ Tudo junto
+*/
+
+#back {
+  background: url(../Html-Basico/Imagens/308761-o-que-e-sorvete-de-massa-e-quais-as-diferencas-para-os-outros-1.jpg)
+    center/cover no-repeat fixed;
+}
+
+/* 
+  Div -> é uma tag que agrupa varias tag ; dai voce configura so a div ; ai configura todas as tags nela
+
+*/
+
+div {
+  color: blueviolet;
+  background-color: gold;
+}
+
+#subdiv {
+  color: black;
+}
