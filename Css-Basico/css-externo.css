@@ -79,12 +79,96 @@ background-attachment: scroll; -> a imagem rola com o mouse
   Div -> é uma tag que agrupa varias tag ; dai voce configura so a div ; ai configura todas as tags nela
 
 */
-
+/* 
 div {
   color: blueviolet;
   background-color: gold;
-}
+} */
 
 #subdiv {
   color: black;
+}
+
+/*
+  Unidades Fixas:
+
+  cm -> centimetros
+  mm -> milimetros
+  in -> polegadas -> 1in tem 2,54cm
+  px -> pixels
+  pt -ponto
+*/
+
+#cm {
+  background-color: blue;
+  width: 1cm;
+  height: 1cm;
+}
+#mm {
+  background-color: red;
+  width: 1mm;
+  height: 1mm;
+}
+#in {
+  background-color: blue;
+  width: 1in;
+  height: 1in;
+}
+
+#px {
+  background-color: red;
+  width: 10px;
+  height: 10px;
+}
+
+#pt {
+  background-color: blue;
+  width: 10pt;
+  height: 10pt;
+}
+#pc {
+  background-color: red;
+  height: 10pc;
+  width: 10pc;
+}
+
+/*
+  Unidades relativas
+  Texto padrão tem 16pixels  
+  em -> tamanho do elemento -> relativo ao tamanho do elemento
+  rem -> relativo ao tamanha da tag raiz o html
+  vw -> refrente a largura da janela -> 1vw refente a 1% da largura da janela
+  vh -> referenta a altura da janela
+  vmin -> referente a menor comprimento
+  vmax -> refente ao maior valor
+  % -> referente ao tamanho do elemento pai
+*/
+
+.container {
+  width: 200px;
+  height: 100px;
+  background: red;
+}
+
+.inside {
+  width: 80%;
+  height: 80%;
+  background: blue;
+}
+
+/* 
+Padding -> ele tambem distancia do elemento pra dentro
+Margin -> a margin ela distancia um elemnto na sua borda
+
+*/
+
+#base {
+  height: 10px;
+  background-color: red;
+}
+
+#container {
+  background-color: blue;
+  color: white;
+  padding: 10px;
 }
