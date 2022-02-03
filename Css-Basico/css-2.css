@@ -1,0 +1,78 @@
+/*  
+Borda
+*/
+
+/* .borda {
+  padding: 10px;
+  margin: 10px;
+  border-width: 5px 2px 10px 15px;
+  border-top-color: blue;
+  border-left-color: rgba(255, 4, 4, 0.294);
+  border-radius: 5px;
+}
+
+.borda2 {
+  border: 5px dashed blue;
+}
+
+.quadrado {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
+
+.dotted {
+  border-style: dotted;
+} /* Pontilhado */
+/* .dashed {
+  border-style: dashed;
+} /* Tracejado */
+/* .solid {
+  border-style: solid;
+} /* continuo */
+/* .none {
+  border-style: none;
+} Não ha borda */
+/* .hidden {
+  border-style: hidden;
+} O elemento esta na tela , mas não aperece */
+
+/* Border-box
+  Margin > borda > padding > conteudo
+  Margin padding e borda trabalham juntos
+  outline -> ele não trabalha com border box
+*/
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/* .container {
+  background-color: blue;
+  padding: 5px;
+  border: 5px solid gold;
+  margin: 10px;
+}
+
+.content {
+  background-color: gray;
+  border: 5px solid green;
+  padding: 5px;
+} */
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border: 10px solid blue;
+  padding: 10px;
+
+  box-sizing: border-box;
+}
+
+.square2 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+}
