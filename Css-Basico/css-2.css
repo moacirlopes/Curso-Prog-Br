@@ -61,7 +61,7 @@ body {
   padding: 5px;
 } */
 
-.square {
+/* .square {
   width: 100px;
   height: 100px;
   background-color: yellow;
@@ -75,4 +75,35 @@ body {
   width: 100px;
   height: 100px;
   background-color: yellow;
+} */
+
+/*
+text-align -> alinha o texto
+text-transform -> transforma o texto em maisculo e minusculo
+text-indent -> espaçoes entre paragrafos
+text-decoration -> decora os textos
+letter-spacing -> espaçoes entre as letras
+ line-height -> altura da linha
+ word-spacing -> separa uma palavra da outra
+ text-shadow: 2px 2px 5px black; -> sombra do texto -> 2px pra direita, 2px pra baixo , 5px raio de desfoque , cor
+
+
+ Fontes:
+ font-family -> familia da fonte
+ font-style -> o estilo da fonte
+ font-size -> modifica o tamanho da fonte
+ font-weight -> coloca a fonte em negrito e altera em numeros
+  font-variant: small-caps; -> poe em maisculo porem respeitando os espaços
+
+*/
+/* 
+#titulo {
+  font-family: sans-serif;
+  font-style: initial;
 }
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: 900;
+  font-variant: small-caps;
+} */
