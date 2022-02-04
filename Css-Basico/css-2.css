@@ -42,11 +42,11 @@ Borda
   Margin padding e borda trabalham juntos
   outline -> ele não trabalha com border box
 */
-
+/* 
 body {
   padding: 0;
   margin: 0;
-}
+} */
 
 /* .container {
   background-color: blue;
@@ -107,3 +107,80 @@ p {
   font-weight: 900;
   font-variant: small-caps;
 } */
+
+/* 
+  Estilizar Link
+
+   cursor -> muda o icone do cursor
+   border-radius -> arredonda botão
+  
+  
+  .links:visited -> muda a cor quando você visita o item
+  .links:hover -> quando você passa o mouse em cima do link
+  .links:active -> quando você clica no link com o mouse e puxa para qualquer lado fica com efeito
+ */
+/* .links:link {
+  text-decoration: none;
+  color: black;
+  cursor: crosshair;
+  /* background: blue; */
+/* padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 10px;
+  border: 2px solid gray;
+*/
+
+/* .links:active {
+  background: black;
+  color: wheat;
+}
+
+#li {
+  text-decoration: none;
+  color: black;
+}
+#li:visited {
+  border-color: blue;
+  color: aqua;
+} */
+
+/* 
+  Estilo para lista
+  ul -> lista com simbolos
+  list-style-type: none; -> tira o marcador da lista
+  list-style-type: disc; -. marcador disco
+  list-style-type: square -> marcador quadrado
+  
+
+  ol -> lista com numeros
+  list-style-type: upper-roman; -> numero romano em maisculo
+  list-style-type: lower-roman; -> numero romano em minusculo
+
+  list-style-type: upper-alpha/lower-alpha -> letra maiscula/letra minuscula
+
+  list-style-image: ; -> por imagem em itens
+  list-style-position: inside; -> marcador passa pra dentro da lista
+
+*/
+ul {
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+
+  background-color: #f3e;
+}
+ol {
+  list-style-type: upper-roman;
+  padding: 10px;
+  background-color: blue;
+  list-style-position: inside;
+}
+
+li {
+  border: 1px solid;
+  background-color: yellow;
+  margin: 5px;
+  padding: 2px;
+  border-radius: 5px;
+}
