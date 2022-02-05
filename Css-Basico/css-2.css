@@ -147,10 +147,11 @@ p {
 
 /* 
   Estilo para lista
-  ul -> lista com simbolos
-  list-style-type: none; -> tira o marcador da lista
+  ul
+  ist-style-type: none; -> tira o marcador da lista
   list-style-type: disc; -. marcador disco
   list-style-type: square -> marcador quadrado
+  
   
 
   ol -> lista com numeros

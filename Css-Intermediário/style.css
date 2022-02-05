@@ -1,0 +1,67 @@
+/*
+Display → é a reposavel por dizer como cada elemento sera mostrado na tela
+display: block; -> do inicio ao fim da pagina , quando voce termina um elemento que é display block ele vai para a proxima linha
+o display bloco pode coloca altura e largura
+
+ex: paragrafos
+display: inline; -> ele vai manter na mesma linha não faz a quebra da linha
+o display inline não pode coloca altura e largura
+
+Não pode ter uma div dentro de um paragrafo
+e nem um paragrafo dentro de outro
+pois ele quebra o fluxo do paragrafo
+
+display inline block -> ele pode usar altura e largura, porem continua na mesma linha
+
+display; none -> não mostra o elemento na tela
+visibility: hidden -> enconder elemento
+*/
+
+/* 
+  Overflow -> é quando tem um conteudo dentro deste elemento, porem este conteudo é maior que o tamanho do elemento
+
+  overflow:visible -> ele é visivel a tela o conteudo indepedente se esta passando do elemento
+  overflow: hidden; -> esconde o conteudo
+  overflow: scroll; -> rola para baixo o elemento
+  overflow: auto; -> coloca o scroll onde precisa, overflow-y: auto;
+   overflow-y: auto; -> mesma forma do auto, porem voce indentifica onde por o scroll
+
+
+
+
+
+*/
+
+/*
+Alinhamento horizontal -> alinhar um elemento na horizontal
+alinhar um elemento no meio formas:
+->Margin -> alterando a margin tanto a esquerda e a direita
+->margin: auto -> equilibra o conteudo
+->margin-left -> mantem o elemento na direita
+
+Com imagem:
+display: block; -> a imagem centraliza
+e com display inline?
+por a imagem dentro de uma div e na div altera com text-aling -> que muda a posição do texto
+
+*/
+
+/* 
+Position
+
+Position:static -> faz que todo elemento se encaixe embaixo(se for display block) ou do lado de todo elemento (se for display inline-block)
+position: relative; -> relativo ao posicionamento padrão;ai você pode usar qualquer propriedade left bottom righ top
+Qual a diferença deste position para a Margin?
+Margin -> ela muda a posição de todos
+position -> ela altera so do elemento selecionado
+.quadrado-blue {
+        background-color: blue;
+        left: 400px;
+        top: 200px; 
+        position: relative;
+      }
+      Tem que ser 200 pois é 100 da altura do quadro e menos 100 da posição inicial
+
+
+
+*/
