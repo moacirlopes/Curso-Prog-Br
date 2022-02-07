@@ -65,3 +65,39 @@ position -> ela altera so do elemento selecionado
 
 
 */
+
+/*
+Position - Absolute
+
+os outros elementos fijem que ele não existe,não faz referencia a ele
+As posições não são relativas ao posicionamento inicial
+ele é relativo ao elemento pai desque que o elemento pai não teve uma posição estatica
+
+
+*/
+
+/*
+
+Position Fixed 
+
+os outros elementos fijem que ele não existe,não faz referencia a ele
+Ele fica em relação ao view port -> o que vemos na tela
+o posicionamento fixo mantem o elemento de forma fixa em relaçõa a viewport
+
+
+
+*/
+
+/*
+Position stick
+os elementos usam ele de referencia
+Rolagem de barra 
+ele obdece as posições suas
+ele não apaga os outros elementos
+ele fica padrão mas quando rola ele rola junto
+
+
+
+
+
+*/
