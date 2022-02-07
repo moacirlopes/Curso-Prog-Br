@@ -95,9 +95,53 @@ Rolagem de barra
 ele obdece as posições suas
 ele não apaga os outros elementos
 ele fica padrão mas quando rola ele rola junto
+*/
 
+/* 
 
+Float
+ele é uma propriedade do display,que permite que o display flutue do lado do outro elemento
+clear: left;
+a propriedade clear elemina o efeito do float
+O float criasse menus
 
+*/
+
+/*
+Alinhamento Vertical
+
+transform: translateX(); -> Largura
+transform: translateY(); -> Altura
+transform: translate(-50%, -50%);
+
+Transforma um elemento tendo em base o conteudo
+
+line-height: 200px; -> ele alinha atraves da altura , porem vc tem que sabe o tamanho da alutra
+
+padding ->
+        padding-left: 150px; -. esqueda
+        padding-right: 150px; -> direita
+        padding-top: 100px; -> emcima
+        padding-bottom: 100px; -> abaixo
+
+porem fica dificil definir a altura e largura do conteudo todo
+
+*/
+
+/* 
+
+Responsividade
+
+Quando seu site serve para todos aparelhos
+
+é colocando as nossas medidas em funções ao tamanho do nosso elemento pai
+*/
+
+/* 
+Media Queries
+eles servem pra dar um comportamento diferente pra algum elemento css de algum elemento dependendo do tamanho da tela
+
+ele altera o html e css ; so que porem para telas de celulares
 
 
 */
