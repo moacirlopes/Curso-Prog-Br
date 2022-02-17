@@ -288,13 +288,123 @@ let idade = 17
 //Sequencial
 //começa no zero
 
-let alunos = ['Igor', 'José', 'Marcos ', 'Mariana', 'Joana', 'João']
+// let alunos = ['Igor', 'José', 'Marcos ', 'Mariana', 'Joana', 'João']
 
-// for (let i = 0; i < alunos.length; i++) {
-//   console.log(alunos[i])
+// // for (let i = 0; i < alunos.length; i++) {
+// //   console.log(alunos[i])
+// // }
+
+// //INDEX É A POSIÇÃO DO ARRAYS
+// for (let aluno of alunos) {
+//   console.log(aluno)
 // }
 
-//INDEX É A POSIÇÃO DO ARRAYS
-for (let aluno of alunos) {
-  console.log(aluno)
+//FUNÇÕES
+//CONJUNTO DE INTRUÇÕES QUE VOCÊ PASSA AO JAVASCRIPT
+//FUNÇÕES RECEBEM ARGUMENTOS VALORES PARA PASSA NA FUNÇÃO
+
+// function media(n1, n2) {
+//   let nota1 = n1
+//   let nota2 = n2
+//   let media = (nota1 + nota2) / 2
+//   // console.log(media)
+
+//   return media
+// }
+
+// let result1 = media(6, 7)
+// let m = media
+
+// let result2 = m(2, 3)
+
+// console.log(result1)
+
+// console.log(result2)
+
+// //
+
+// function saudacao() {
+//   return 'Olá Mundo'
+// }
+
+// let s = saudacao
+
+// console.log(s())
+
+//Função Anonima É UMA FUNÇÃO DENTRO DE UMA VARIAVEL
+
+// let media = function (n1, n2) {
+//   return (n1 + n2) / 2
+// }
+
+// //MESMA COISA
+// let m = media(5, 6)
+
+// console.log(m)
+
+//ARROW FUNCITON
+// let media = (n1, n2) => {
+//   return (n1 + n2) / 2
+// }
+
+//    / / / //  / / //  / / / //  / / //  / / / //  / / / / //  / / /
+
+//nome do aluno - nota1 - nota 2 - media - Aprovado
+
+// let nomes = ['Igor', 'José', 'Maria']
+// let notasA = [7.0, 6.5, 9, 4]
+// let notasB = [9.0, 7.2, 8.8]
+
+// function media(n1, n2) {
+//   return (n1 + n2) / 2
+// }
+
+// for (let index in nomes) {
+//   let nota1 = notasA[index]
+//   let nota2 = notasB[index]
+
+//   function passou(media) {
+//     if (media > 7) {
+//       return 'Aprovado'
+//     } else {
+//       return 'Reprovado'
+//     }
+//   }
+
+//   console.log(
+//     ` ${nomes[index]} - ${notasA[index]} - ${notasB[index]} - ${media(
+//       nota1,
+//       nota2
+//     )} - ${passou(media)}`
+//   )
+// }
+
+// OBJETOS
+
+// let aluno = {
+//   nome: 'Igor',
+//   idade: 17,
+//   notas: [8.5, 7.2]
+// }
+
+// let novaProp = 'LastName'
+
+// //COMO INSERIR UMA NOVA PROPRIEDADE
+// aluno.matricula = 123456
+
+// aluno[novaProp] = 'Oliveira'
+
+// console.log(aluno)
+
+let aluno = {
+  nome: 'Igor',
+  notas: [8, 9]
 }
+
+let aluno2 = {
+  nome: 'Jose',
+  notas: [7, 9]
+}
+
+console.log(aluno)
+console.log(aluno2)
