@@ -226,13 +226,75 @@ let idade = 17
 
 //Verificar se um aluno passo numa prova
 
-let nota1 = 10
-let nota2 = 10
+// let nota1 = 10
+// let nota2 = 1
 
-let media = (nota1 + nota2) / 2
+// let media = (nota1 + nota2) / 2
 
-if (media > 7) {
-  console.log(`você passou com média ${media}`)
-} else {
-  console.log(`Sua nota ${media} , não foi suficiante para passar`)
+// let conceito = ''
+
+// if (media >= 8) {
+//   conceito = 'otimo'
+// } else if (media > 6.5) {
+//   conceito = 'bom'
+// } else {
+//   conceito = 'regular'
+// }
+
+// conceito = 'Mais ou menos'
+
+// console.log(media)
+// console.log(conceito)
+
+// switch (conceito) {
+//   case 'otimo':
+//     console.log('Parabéns, você é um otimo aluno')
+//     break
+//   case 'bom':
+//     console.log('Você está quase perfeito')
+//     break
+//   case 'regular':
+//     console.log('Estude mais um pouco')
+//     break
+
+//   default:
+//     console.log('Houve algum erro')
+//     break
+// }
+
+//Repetição - FOR e WHILE
+
+//FOR
+// let numero = 5
+
+// for (let i = 3; i < numero; i++) {
+//   console.log(`executando o for,pela ${i} vez `)
+// }
+
+//wHILE ->
+// USAR O WHILE QUANDO TEM UMA CONDIÇÃO QUE NOS QUER QUE SEJA VERDAIRA, MAS NÃO SABE QUANDO VAI SER VERDADEIRO
+// let numero = Math.random() * 100
+
+// while (numero < 90) {
+//   console.log(`numero ${numero}`)
+//   numero = Math.random() * 100
+// }
+
+// console.log(numero)
+// console.log('Acabou')
+
+//ARRAYS
+//Conjunto de dados
+//Sequencial
+//começa no zero
+
+let alunos = ['Igor', 'José', 'Marcos ', 'Mariana', 'Joana', 'João']
+
+// for (let i = 0; i < alunos.length; i++) {
+//   console.log(alunos[i])
+// }
+
+//INDEX É A POSIÇÃO DO ARRAYS
+for (let aluno of alunos) {
+  console.log(aluno)
 }
