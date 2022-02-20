@@ -396,15 +396,42 @@ let idade = 17
 
 // console.log(aluno)
 
+// let aluno = {
+//   nome: 'Igor',
+//   notas: [8, 9]
+// }
+
+// let aluno2 = {
+//   nome: 'Jose',
+//   notas: [7, 9]
+// }
+
+// console.log(aluno)
+// console.log(aluno2)
+
+//Objetos - Métodos
+
+//metodos são como funções no objeto
+
+//This -> isto -> ele é uma variavel que mostra um objeto
+
+function calcMedia() {
+  return (this.notas[0] + this.notas[1]) / 2
+}
+
 let aluno = {
   nome: 'Igor',
-  notas: [8, 9]
+  notas: [10, 10],
+
+  media: calcMedia
 }
 
-let aluno2 = {
-  nome: 'Jose',
-  notas: [7, 9]
+let aluno1 = {
+  nome: 'João',
+  notas: [7, 8],
+
+  media: calcMedia
 }
 
-console.log(aluno)
-console.log(aluno2)
+console.log(aluno.nome)
+console.log(aluno.media())
