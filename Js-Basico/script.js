@@ -415,23 +415,89 @@ let idade = 17
 
 //This -> isto -> ele é uma variavel que mostra um objeto
 
-function calcMedia() {
-  return (this.notas[0] + this.notas[1]) / 2
+// function calcMedia() {
+//   return (this.notas[0] + this.notas[1]) / 2
+// }
+
+// let aluno = {
+//   nome: 'Igor',
+//   notas: [10, 10],
+
+//   media: calcMedia
+// }
+
+// let aluno1 = {
+//   nome: 'João',
+//   notas: [7, 8],
+
+//   media: calcMedia
+// }
+
+// console.log(aluno.nome)
+// console.log(aluno.media())
+
+//Objetos - Construtores
+
+// function criarAluno(nome, n1, n2) {
+//   return {
+//     nome: nome,
+//     nota1: n1,
+//     nota2: n2,
+//     media: function () {
+//       return (this.nota1 + this.nota2) / 2
+//     }
+//   }
+// }
+
+// let turma = [
+//   criarAluno('Igor', 9, 6),
+//   criarAluno('João', 9, 5),
+//   criarAluno('Marcela', 8, 7.5)
+// ]
+
+// let calcMedia = function () {
+//   return (this.nota1 + this.nota2) / 2
+// }
+
+// let turma = [
+//   {
+//     nome: 'Igor',
+//     nota1: 9,
+//     nota2: 7,
+//     media: calcMedia
+//   },
+
+//   {
+//     nome: 'João',
+//     nota1: 7,
+//     nota2: 8,
+//     media: calcMedia
+//   },
+//   {
+//     nome: 'vitor',
+//     not1: 7,
+//     nota2: 3,
+//     media: calcMedia
+//   }
+// ]
+// let aluno = turma[2]
+// console.log(aluno)
+// console.log(aluno.media())
+
+// for (let aluno of turma) {
+//   console.log(aluno.nome + ' - ' + aluno.media())
+// }
+
+function aluno(nome, n1, n2) {
+  this.nome = nome
+  this.nota1 = n1
+  this.nota2 = n2
+
+  this.media = function media() {
+    return (this.nota1 + this.nota2) / 2
+  }
 }
 
-let aluno = {
-  nome: 'Igor',
-  notas: [10, 10],
-
-  media: calcMedia
-}
-
-let aluno1 = {
-  nome: 'João',
-  notas: [7, 8],
-
-  media: calcMedia
-}
-
-console.log(aluno.nome)
-console.log(aluno.media())
+let a = new aluno('Igor', 8, 7)
+let a = new aluno('Maycon', 7, 8)
+console.log(a)
